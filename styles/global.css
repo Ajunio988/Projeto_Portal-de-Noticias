@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Produto */
+  --brand-color-light: #60A5FA;
+  --brand-color-dark: #1D4ED8;
+  /* Base */
+  --bg-color: #0F172A;
+  --stroke-color: #1E293B;
+  /* Textos */
+  --text-color-primary: #f1f5f9;
+  --text-color-secundary: #CBD5E1;
+
+  /* font */
+  --font-family: "Archivo", serif;
+  --text-heading1: 24px/135% var(--font-family);
+  --text-heading2: 16px/140% var(--font-family);
+  --text-heading3: 14px/140% var(--font-family);
+  --text-span: 14px/145% var(--font-family);
+  --text-p: 14px/160% var(--font-family);
+}
+
+body {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+}

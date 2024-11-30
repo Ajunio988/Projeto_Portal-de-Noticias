@@ -15,15 +15,22 @@
   --text-color-secundary: #CBD5E1;
 
   /* font */
-  --font-family: "Archivo", serif;
-  --text-heading1: 24px/135% var(--font-family);
-  --text-heading2: 16px/140% var(--font-family);
-  --text-heading3: 14px/140% var(--font-family);
-  --text-span: 14px/145% var(--font-family);
-  --text-p: 14px/160% var(--font-family);
+  --font-family: "Archivo", sans-serif;
+  --text-heading1: 800 24px/135% var(--font-family);
+  --text-heading2: 800 16px/140% var(--font-family);
+  --text-heading3: 800 14px/140% var(--font-family);
+  --text-span: 600 14px/145% var(--font-family);
+  --text: 400 16px/140% var(--font-family);
+  --text-p: 400 14px/160% var(--font-family);
 }
 
 body {
+  font: var(--text);
   color: var(--text-color-primary);
   background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
